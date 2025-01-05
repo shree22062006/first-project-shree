@@ -1,0 +1,33 @@
+@font-face{
+    font-family: "Playwrite IE Guides";
+    src:url("./resources/PlaywriteIEGuides-Regular.ttf") format("truetype");
+}
+h1{
+    font-size: 24px;
+    color: #33fff1;
+    font-family: "Playwrite IE Guides", serif;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+label{
+    line-height: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.form container{
+    background-color: #ff3363;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px 10px 15px 10px;
+    margin: 20px 30px 20px 30px;
+
+}
+.input__box {
+    padding: 20px 10px 20px 10px;
+    border: 1px solid black;
+    
+}

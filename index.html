@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IE+Guides&display=swap" rel="stylesheet">
+    <title>form</title>
+    
+    <style>
+        h1{
+            font-size: 24px;
+            color: #33fff1;
+            font-family: "Playwrite IE Guides", serif;
+            font-style: normal;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            background-color: #ff3363;
+        }
+        label{
+            line-height: 10px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 800;
+              
+        }
+    </style>
 </head>
 <body>
-  <p>riddhi shree
+    <div class="form__container">
+    </div>
+     <form>
+        <h1 style="color: aqua">Registration Form</h1>
+        <label>Name: </label><br />
+        <input
+            type="text"
+            placeholder="Enter name"
+             name="full_name"
+         /><br />
 
-  </p>
+            <label>DOB: </label><br />
+            <input type="date" name="Age" /><br />
+
+            <label>Gender: </label><br /><br />
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br />
+            <br />
+
+            <input type="submit" />
+         </form>
+</div>
+<div>
+    <button data-price="link__1" class="btn">link 1</button>
+    <button data-price="link__2" class="btn">link 2</button>
+    <button data-price="link__3" class="btn">link 3</button>
+    <button data-price="link__4" class="btn">link 4</button>
+</div>
+    <script src="./script.js"></script>
 </body>
 </html>

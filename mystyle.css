@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: "Playwrite IE Guides";
     src:url("./resources/PlaywriteIEGuides-Regular.ttf") format("truetype");
@@ -26,8 +27,4 @@ label{
     margin: 20px 30px 20px 30px;
 
 }
-.input__box {
-    padding: 20px 10px 20px 10px;
-    border: 1px solid black;
-    
-}
+
